@@ -7,12 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      keyframes: {
+        move_bg: {
+          from: { 'background-position': '0 0' },
+          to: { 'background-position': '400% 0' },
+        },
+      },
+      animation: {
+        move_bg: 'move_bg 12s linear infinite',
       },
     },
   },
   plugins: [],
-}
+};
