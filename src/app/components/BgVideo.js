@@ -7,6 +7,7 @@ export default function BgVideo() {
       muted
       loop
       autoPlay
+      playsInline
       className='h-full w-full'
     >
       <source src={videoSrc} type='video/mp4' />
