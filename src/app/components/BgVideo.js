@@ -1,5 +1,5 @@
 const videoSrc =
-  'https://res.cloudinary.com/ddqehibx0/video/upload/e_fade:1000,so_4/v1684362992/pmu/pexels-engin-akyurt-6067531-3840x2160-30fps_f5x5an.mp4';
+  'https://res.cloudinary.com/ddqehibx0/video/upload/v1684362992/pmu/lips_2_adjusted_kugngl.mp4';
 
 export default function BgVideo() {
   return (
